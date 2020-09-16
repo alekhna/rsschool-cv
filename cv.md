@@ -24,3 +24,14 @@ and others
 * Very Good Teacher
 * Good Self Education skill
 * Friendly
+
+## Education
+* BSU, philology
+
+## Experience
+* Freelance Web Master & SEO
+* IT specialist in small business
+* IT teacher (HTML&CSS)
+
+### English Level
+* B1
