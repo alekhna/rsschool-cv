@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Tahoma, Verdana, sans-serif;
+    background-color: beige;
+}
+
+h1, h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(116, 32, 32);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+ul{
+    list-style-position: inside;
+}
+
+main{
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    background-color: beige;
+    padding: 20px;
+}
+
+h1{
+    margin-left: 30px;
+}
+.avatar{
+    width: 120px;
+    border-radius: 50%;
+    border: rgb(255, 255, 255) 7px solid;
+}
+.tel, .email{
+    list-style: none;
+}
+
+.tel a, .email a{
+    color: rgb(70, 70, 70);
+}
+
+.tel:before, .email:before, .location:before{
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(images/mobile-phone.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.email:before{
+    background-image: url(images/email.svg);
+}
+
+.location:before{
+    background-image: url(images/pin.svg);
+}
+.email{
+    margin-top: 10px;
+}
